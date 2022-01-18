@@ -1,0 +1,14 @@
+<div class="centralizar">
+  <div class="card" style="width: 18rem;" *ngIf="this.livro$ | async as livroAsync">
+    <img [src]="livroAsync.urlImagem" class="card-img-top" alt="...">
+    <div class="card-body" style="align-items: center;">
+      <h5 class="card-title">{{ livroAsync.titulo }}</h5>
+      <p class="card-text">{{ livroAsync.descricao }}</p>
+      <a>{{ livroAsync.categoria }}</a><br>
+      <a>Preço: {{ livroAsync.preco | currency: "BRL" }}</a><br>
+      <div class="buttons">
+        <a class="btn btn-primary" (click)="backToList()">Retornar</a>
+      </div>
+    </div>
+  </div>
+</div>

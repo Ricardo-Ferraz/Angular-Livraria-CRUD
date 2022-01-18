@@ -1,0 +1,153 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Livro 1",
+      "autor": "Autor 1",
+      "descricaoBreve": "Descrição Breve 1",
+      "descricao": "Descrição 1",
+      "preco": 49.99,
+      "categoria": [
+        "Categoria 1",
+        "Categoria 2"
+      ],
+      "qtdVendas": 2,
+      "urlImagem": "https://images.unsplash.com/photo-1642367943176-d1b7d3ce4100?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+      "id": 2,
+      "titulo": "Livro 2",
+      "autor": "Autor 2",
+      "descricaoBreve": "Descrição Breve 2",
+      "descricao": "Descrição 2",
+      "preco": 59.99,
+      "categoria": [
+        "Categoria 3",
+        "Categoria 4"
+      ],
+      "qtdVendas": 2,
+      "urlImagem": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+      "id": 3,
+      "titulo": "Livro 3",
+      "autor": "Autor 3",
+      "descricaoBreve": "Descrição Breve 3",
+      "descricao": "Descrição 3",
+      "preco": 49.99,
+      "categoria": [
+        "Categoria 5",
+        "Categoria 6"
+      ],
+      "qtdVendas": 2,
+      "urlImagem": "https://images.unsplash.com/photo-1642409370386-446eec2fab0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "id": 4,
+      "titulo": "Livro 4",
+      "autor": "Autor 4",
+      "descricaoBreve": "Descrição Breve 4",
+      "descricao": "Descrição 4",
+      "preco": 51.99,
+      "categoria": [
+        "Categoria 7",
+        "Categoria 8",
+        "Categoria 9",
+        "Categoria 10",
+        "Categoria 11"
+      ],
+      "qtdVendas": 2,
+      "urlImagem": "https://images.unsplash.com/photo-1642409370386-446eec2fab0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "titulo": "xzxzxc",
+      "autor": "asdasd",
+      "descricaoBreve": null,
+      "descricao": "asdasd",
+      "categoria": "zxczxc",
+      "qtdVendas": null,
+      "urlImagem": "https://images.unsplash.com/photo-1642436381301-e31b17223a5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "id": 5
+    },
+    {
+      "titulo": "Ednaldo Pereira",
+      "autor": "Ednaldo Pereira",
+      "descricaoBreve": "Biografia de Ednaldo Pereira",
+      "descricao": "Aos olhares de um terceiro, a história de Ednaldo Pereira é contada",
+      "categoria": "Ednaldo",
+      "qtdVendas": 2,
+      "preco": 121.11,
+      "urlImagem": "https://pbs.twimg.com/profile_images/1293925081542995971/s2la3KS9_400x400.png",
+      "id": 6
+    },
+    {
+      "titulo": "dasdas",
+      "autor": "dasdas",
+      "descricaoBreve": "dasda",
+      "descricao": "dsadasd",
+      "categoria": "asdasd",
+      "qtdVendas": 1,
+      "preco": 123321,
+      "urlImagem": "zxczxczxc",
+      "id": 7
+    },
+    {
+      "titulo": "xzc",
+      "autor": "zxcz",
+      "descricaoBreve": "czxc",
+      "descricao": "wqe",
+      "categoria": "eqw",
+      "qtdVendas": 3,
+      "preco": 4,
+      "urlImagem": "https://images.unsplash.com/photo-1642436381301-e31b17223a5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "id": 8
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "login1",
+      "senha": "senha1"
+    },
+    {
+      "id": 2,
+      "login": "login2",
+      "senha": "senha2"
+    },
+    {
+      "login": "xzczx",
+      "senha": "123123",
+      "id": 3
+    },
+    {
+      "login": "2twtwet",
+      "senha": "123123",
+      "id": 4
+    },
+    {
+      "login": "4yrtytr",
+      "senha": "123123",
+      "id": 5
+    },
+    {
+      "login": "usuario@email.com",
+      "senha": "cvxcv",
+      "id": 6
+    },
+    {
+      "login": "User@user.com",
+      "senha": "czxcxzczx",
+      "id": 7
+    },
+    {
+      "login": "zxczxczxc",
+      "senha": "asdasd",
+      "id": 8
+    },
+    {
+      "login": "ednaldo@pereira.com",
+      "senha": "123",
+      "id": 9
+    }
+  ]
+}

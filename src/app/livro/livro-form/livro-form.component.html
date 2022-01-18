@@ -1,0 +1,90 @@
+<div class="container">
+
+<form class="row g-3 needs-validation" novalidate [formGroup]="this.form" style="padding-top: 10px;">
+
+  <div class="col-md-4">
+    <label for="titulo" class="form-label">Título</label>
+    <input type="text" class="form-control" [ngClass]=" {'is-invalid': hasErrors('titulo') }"
+    id="titulo" formControlName="titulo">
+    <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="autor" class="form-label">Autor</label>
+    <input type="text" class="form-control" [ngClass]=" {'is-invalid': hasErrors('autor') }"
+     id="autor" formControlName="autor">
+     <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="descricaoBreve" class="form-label">Descrição breve</label>
+    <input type="text" class="form-control" id="descricaoBreve"
+     formControlName="descricaoBreve" [ngClass]=" {'is-invalid': hasErrors('descricaoBreve') }">
+     <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="descricao" class="form-label">Descrição</label>
+    <textarea class="form-control" id="descricao"
+    [ngClass]=" {'is-invalid': hasErrors('descricao') }" rows="3" formControlName="descricao"></textarea>
+    <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+    <div class="col-md-6">
+      <label for="categoria" class="form-label">Categoria</label>
+      <input type="text" class="form-control" id="categoria"
+      [ngClass]=" {'is-invalid': hasErrors('categoria') }" formControlName="categoria">
+      <div class="invalid-feedback">
+        Aqui possui erro
+      </div>
+    </div>
+
+  <div class="col-md-4">
+    <label for="qtdVendas" class="form-label">Quantidade de vendas</label>
+    <input type="number" class="form-control" id="qtdVendas"
+    [ngClass]=" {'is-invalid': hasErrors('qtdVendas') }" formControlName="qtdVendas">
+    <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="preco" class="form-label">Preço</label>
+    <input type="number" class="form-control" id="preco"
+    [ngClass]=" {'is-invalid': hasErrors('preco') }" formControlName="preco">
+    <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <label for="urlImagem" class="form-label">Url da imagem</label>
+    <input type="url" class="form-control" id="urlImagem"
+    [ngClass]=" {'is-invalid': hasErrors('urlImagem') }" formControlName="urlImagem">
+    <div class="invalid-feedback">
+      Aqui possui erro
+    </div>
+  </div>
+
+  <div style="margin-top: 10px;">
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()">Salvar</button>
+    <button type="submit" class="btn btn-defalut" (click)="onCancel()">Cancelar</button>
+  </div>
+</form>
+</div>
+<div *ngIf="this.error || this.success">
+  <div class="alert alert-primary" role="alert" *ngIf="this.success">
+    Sucesso ao cadastrar um novo livro!
+  </div>
+  <div class="alert alert-danger" role="alert" *ngIf="this.error">
+    Falha ao cadastrar um novo livro, tente novamente!
+  </div>
+</div>
